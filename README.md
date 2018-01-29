@@ -2,7 +2,6 @@
 <html lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>なんJフィルター</title>
 </head>
 <body>
 <p>◇フィルター作成所<br>
