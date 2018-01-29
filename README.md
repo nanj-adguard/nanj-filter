@@ -26,5 +26,21 @@ AdGuard社のフィルターは日本語ウェブサイト・アプリへの対�
 ですからwikiで公開されているものとtxt化されたものでは更新の速度が変わってしまいます。<br>
 最新のルールを使いたい方はwikiのルールを直接コピペする方法をとって、更新速度にこだわりのない人だけがこのtxtを利用してください。<br>
 このtxtの管理をしている人は最低でも3日に1回くらいはwikiを確認するつもりですから、1週間以上経っても更新がない場合は死んだと思って誰かが引き継いでください。</p>
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="https://github.com/nanj-adguard/nanj-filter/">https://github.com/nanj-adguard/nanj-filter/</a>
+  has waived all copyright and related or neighboring rights to
+  <span property="dct:title">nanj-filter.txt</span>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="JP" about="https://github.com/nanj-adguard/nanj-filter/">
+  日本</span>.
+</p>
 </body>
 </html>
