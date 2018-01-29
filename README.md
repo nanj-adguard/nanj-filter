@@ -4,6 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
+<p>AdGuardを日本語ウェブサイトで使う際の不都合と280blockerをAdGuardで使う際の不都合を解消するために本wikiで開発した簡易的なフィルタです。<br>
+280blockerをメインで使うことを前提に不具合等を解消するためのルールだけをリストにしており、広告をブロックするためのフィルタではないので、単独で使用することはできません。</p>
 <p>◇フィルター作成所<br>
 <a href="http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA">http://wikiwiki.jp/nanj-adguard/フィルター作成所</a></p>
 <p>◇フィルター本体<br>
