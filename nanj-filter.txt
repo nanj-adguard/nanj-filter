@@ -1,0 +1,70 @@
+﻿! Title: なんJフィルター
+! Homepage: http://wikiwiki.jp/nanj-adguard/
+! License: CC0
+! Last modified: 2018-01-28
+! Description: AdGuard for Androidで280blockerを使用して日本語ウェブサイト・アプリの広告等をブロックする際に発生する不都合を解消するためのフィルターです。
+! Expires: 5 days
+!
+! ソフトバンク、ポチッとギフトでの不具合への対応
+@@||microad.jp^$app=com.adguard.dns
+@@||microad.jp^$domain=softbank.jp|sbg.jp
+@@||microad.net^$app=com.adguard.dns
+@@||microad.net^$domain=softbank.jp|sbg.jp
+!
+! コナミでの不具合への対応
+@@||coremetrics.com^$app=com.adguard.dns
+@@||coremetrics.com^$domain=konamistyle.jp|konami.com|konami.jp|konami.net
+!
+! 109シネマズでの不具合への対応
+@@||googleadservices.com^$app=com.adguard.dns
+@@||googleadservices.com^$domain=109cinemas.net
+!
+! NHKでの不具合への対応
+@@||analytics.edgekey.net^$app=com.adguard.dns
+@@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
+!
+! ホウドウキョクでの不具合への対応
+@@||houdoukyoku.jp^$generichide
+!
+! カーサ ブルータスでの不具合への対応
+@@||aka-cdn.adtechus.com^$app=com.adguard.dns
+@@||aka-cdn.adtechus.com/dt/common/DAC.js$domain=casabrutus.com
+!
+! ポンタでの不具合への対応
+@@||mtburn.jp^$app=com.adguard.dns
+@@||mtburn.jp^$domain=ponta.jp
+@@||mtburn.com^$app=com.adguard.dns
+@@||mtburn.com^$domain=ponta.jp
+!
+! AdGuard未対応のアンチ広告ブロックへの対応
+monara.net,sorasi.net#%#AG_abortInlineScript(/google_ad_client/, 'document.addEventListener');
+@@||gahag.net^$generichide
+!
+! AdGuard一部未対応のアンチ広告ブロックへの対応
+akb48gnittimatome.com,eikaiwamastery.blogspot.jp,gtoys.blog48.fc2.com,halchim.jp,kamikiyuki.hatenablog.com,omutulove.blog.fc2.com,wakudan.seesaa.net#%#AG_abortInlineScript(/google_ad_client/, 'document.addEventListener');
+@@||anipo.jp^$generichide
+@@||mushinavi.com^$generichide
+@@||nazolog.com^$generichide
+@@||publicdomainq.net^$generichide
+@@||socom.yokohama^$generichide
+!
+! k05.biz、z0i.netのアンチ広告ブロックへの対応
+@@||k05.biz^$generichide
+@@||z0i.net^$generichide
+!
+! 280blockerのルールが無効化される保守速報への対応
+hosyusokuhou.jp##div.aban
+hosyusokuhou.jp##div.abox
+!
+! LINEでの不具合への対応
+@@||applovin.com^$app=com.adguard.dns|jp.naver.line.android
+!
+! ChMate、MX Playerなどでの不具合への対応
+||googleads.g.doubleclick.net/mads/static/mad/sdk/native/*.html$empty
+!
+! graph.facebook.com使用アプリへの対応
+||graph.facebook.com^$app=com.estmob.android.sendanywhere|com.mxtech.videoplayer.ad|kr.co.rinasoft.howuse|mmapps.mirror.free
+!
+! ★無料版ユーザー向け厳罰化ルール★
+! 無料版ユーザーのうち、不具合が発生してもいいので広告をブロックしたいという人のみ、以下の「!」を削除してください。
+!||graph.facebook.com^$app=com.adguard.dns
