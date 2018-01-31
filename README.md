@@ -1,10 +1,10 @@
-#お知らせ(1/31)
+# お知らせ(1/31)
   なんJフィルターはなんJ改修フィルターに名称が変更されました。なお、wikiの書き換えの手間や既に辞書の予測変換にURLを登録した人のことなどを考慮して、URL上の名称変更はしていません。
   
   なんJ改修フィルターは、AdGuardを日本語ウェブサイトで使う際の不都合と280blockerをAdGuardで使う際の不都合を解消するために<a href="http://wikiwiki.jp/nanj-adguard/">外部のwiki</a>で開発した簡易的なフィルターです。
   280blockerをメインで使うことを前提に不具合等を解消するためのルールだけをリストにしており、広告をブロックするためのフィルターではないので、単独で使用することはできません。
 
-#◇フィルター作成所
+# ◇フィルター作成所
 <a href="http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA">http://wikiwiki.jp/nanj-adguard/フィルター作成所</a></p>
 <p>◇フィルター本体<br>
 <a href="https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt">https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt</a></p>
