@@ -14,7 +14,7 @@
 <p>◇使い方<br>
 <a href="https://280blocker.net/files/280blocker_adblock.txt">280さんのフィルター</a>をインポートした後で、「インポート」をタップして「既存のルールを上書きする」のチェックを外して、テキストボックスに<a href="https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt">https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt</a>をコピペしてください。<br>
 一応管理人がチェックするつもりですが、元々は誰でも編集できるwikiで作られているフィルターなので<br>
-1.不正な改変がされていないか各自チェックしてからコピペすること<br>
+1.不正な改変がされていないか各自チェックしてからインポートすること<br>
 2.動作がおかしくなったらユーザーフィルターを削除して元に戻すこと<br>
 3.何らかのトラブルがあっても自己責任であること<br>
 を心掛けて使用してください。</p>
