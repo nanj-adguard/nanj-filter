@@ -1,6 +1,6 @@
 ! Title: なんJ改修フィルター
 ! Homepage: http://wikiwiki.jp/nanj-adguard/
-! License: CC0
+! License: CC0 (https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 ! Last modified: 2018-01-28
 ! Description: AdGuard for Androidで280blockerを使用して日本語ウェブサイト・アプリの広告等をブロックする際に発生する不都合を解消するためのフィルターです。
 ! Expires: 5 days
