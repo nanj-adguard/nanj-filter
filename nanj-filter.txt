@@ -1,4 +1,4 @@
-﻿! Title: なんJフィルター
+! Title: なんJ改修フィルター
 ! Homepage: http://wikiwiki.jp/nanj-adguard/
 ! License: CC0
 ! Last modified: 2018-01-28
