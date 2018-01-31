@@ -6,9 +6,9 @@
 # フィルター作成所
 <a href="http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA">http://wikiwiki.jp/nanj-adguard/フィルター作成所</a></p>
 # フィルター本体
-[ncxx-sl-lab](https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)
+[https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt](https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)
 # 使い方
-<a href="https://280blocker.net/files/280blocker_adblock.txt">280さんのフィルター</a>をインポートした後で、「インポート」をタップして「既存のルールを上書きする」のチェックを外して、テキストボックスに[ncxx-sl-lab](https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)をコピペしてください。
+<a href="https://280blocker.net/files/280blocker_adblock.txt">280さんのフィルター</a>をインポートした後で、「インポート」をタップして「既存のルールを上書きする」のチェックを外して、テキストボックスに[https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt](https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)をコピペしてください。
 一応管理人がチェックするつもりですが、元々は誰でも編集できるwikiで作られているフィルターなので
 1.不正な改変がされていないか各自チェックしてからインポートすること
 2.動作がおかしくなったらユーザーフィルターを削除して元に戻すこと
