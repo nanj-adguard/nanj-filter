@@ -6,9 +6,9 @@
 # フィルター作成所
 [http://wikiwiki.jp/nanj-adguard/フィルター作成所](http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA)
 # フィルター本体
-[https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt](https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)
+<https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt>
 # 使い方
-280さんのフィルターをインポートした後で、「インポート」をタップして**「既存のルールを上書きする」のチェックを外して**、テキストボックスに[https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt](https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)をコピペしてください。  
+280さんのフィルターをインポートした後で、「インポート」をタップして **「既存のルールを上書きする」のチェックを外して** 、テキストボックスに<https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt>をコピペしてください。  
 元々は誰でも編集できるwikiで作られたフィルターなので、
 1. 不正な改変がされていないか各自チェックしてからインポートすること
 2. 動作がおかしくなったらユーザーフィルターを削除して元に戻すこと
@@ -18,11 +18,11 @@
 AdGuard社のフィルターは日本語ウェブサイト・アプリへの対応が不十分です。一方、280さんのフィルターは原則としてiOSの280blockerでの利用を前提にしており、AdGuard for Androidでの使用に特化したルールは盛り込まれていません。そこで、AdGuardで280さんのフィルターを使用することを前提として、このような不都合を解決するための追加フィルターを作成します。
 # 対象ルール
 1. AdGuardのフィルター（DNSブロックを含む）を日本語ウェブサイト・アプリで使用した場合に発生する問題を解決するためのルール
-- 日本語ウェブサイト・アプリでの不具合を解消するルール
+ - 日本語ウェブサイト・アプリでの不具合を解消するルール
 2. 280さんのフィルターをAdGuardで使用した場合に発生する問題を解決するためのルール
-- 280さんが対象外としているAndroid専用の広告やAndroidアプリの広告に対応するルール
-- AdGuardの不具合によって正常に動作しないルールを改善するルール
-- AdGuard独自記法によってさらにブロック性能を高めるルール<br>
+ - 280さんが対象外としているAndroid専用の広告やAndroidアプリの広告に対応するルール
+ - AdGuardの不具合によって正常に動作しないルールを改善するルール
+ - AdGuard独自記法によってさらにブロック性能を高めるルール<br>
 基本的にどのような設定（DNSブロック、HTTPSブロックなどのオンオフ）でも問題が起きないルールをまとめます。
 # なんJ改修フィルターのtxt化について
 なんJ改修フィルターはwiki内で有志たちが作成・公開したものであり、誰でも追加・編集できますが、txt化については現在個人で行っています。  
