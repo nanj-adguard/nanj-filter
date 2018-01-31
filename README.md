@@ -8,11 +8,11 @@
 # フィルター本体
 [https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt](https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)
 # 使い方
-280さんのフィルターをインポートした後で、「インポート」をタップして**「既存のルールを上書きする」のチェックを外して**、テキストボックスに(https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)をコピペしてください。
+280さんのフィルターをインポートした後で、「インポート」をタップして**「既存のルールを上書きする」のチェックを外して**、テキストボックスに[https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt](https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)をコピペしてください。
 元々は誰でも編集できるwikiで作られたフィルターなので、
 1. 不正な改変がされていないか各自チェックしてからインポートすること
 2. 動作がおかしくなったらユーザーフィルターを削除して元に戻すこと
-3. 何らかのトラブルがあっても自己責任であること
+3. 何らかのトラブルがあっても自己責任であること  
   を心掛けて使用してください。
 # コンセプト
 AdGuard社のフィルターは日本語ウェブサイト・アプリへの対応が不十分です。一方、280さんのフィルターは原則としてiOSの280blockerでの利用を前提にしており、AdGuard for Androidでの使用に特化したルールは盛り込まれていません。そこで、AdGuardで280さんのフィルターを使用することを前提として、このような不都合を解決するための追加フィルターを作成します。
