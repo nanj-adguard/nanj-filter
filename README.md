@@ -31,6 +31,7 @@ AdGuard社のフィルターは日本語ウェブサイト・アプリへの対�
 ですからwikiで公開されているものとtxt化されたものでは更新速度が変わってしまうと思われます。  
 最新のルールを使いたい方はwikiのルールを直接コピペする方法をとって、更新速度にこだわりのない方だけがこのtxtを利用してください。  
 このtxtの管理をしている人は最低でも3日に1回以上はwikiを確認するつもりですから、wikiの更新から1週間以上経っても反映されない場合は死んだと思って誰かが引き継いでください。  
+
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <a rel="license"
      href="http://creativecommons.org/publicdomain/zero/1.0/">
