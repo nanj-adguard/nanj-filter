@@ -4,15 +4,15 @@
   なんJ改修フィルターは、AdGuardを日本語ウェブサイトで使う際の不都合と280blockerをAdGuardで使う際の不都合を解消するために<a href="http://wikiwiki.jp/nanj-adguard/">外部のwiki</a>で開発した簡易的なフィルターです。
   280blockerをメインで使うことを前提に不具合等を解消するためのルールだけをリストにしており、広告をブロックするためのフィルターではないので、単独で使用することはできません。
 # フィルター作成所
-<a href="http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA">http://wikiwiki.jp/nanj-adguard/フィルター作成所</a></p>
+[http://wikiwiki.jp/nanj-adguard/フィルター作成所](http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA)
 # フィルター本体
 [https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt](https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)
 # 使い方
-<a href="https://280blocker.net/files/280blocker_adblock.txt">280さんのフィルター</a>をインポートした後で、「インポート」をタップして「既存のルールを上書きする」のチェックを外して、テキストボックスに[https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt](https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)をコピペしてください。
+[280さんのフィルター](https://280blocker.net/files/280blocker_adblock.txt)をインポートした後で、「インポート」をタップして「既存のルールを上書きする」のチェックを外して、テキストボックスに[https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt](https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt)をコピペしてください。
 一応管理人がチェックするつもりですが、元々は誰でも編集できるwikiで作られているフィルターなので
-1.不正な改変がされていないか各自チェックしてからインポートすること
-2.動作がおかしくなったらユーザーフィルターを削除して元に戻すこと
-3.何らかのトラブルがあっても自己責任であること
+1. 不正な改変がされていないか各自チェックしてからインポートすること
+2. 動作がおかしくなったらユーザーフィルターを削除して元に戻すこと
+3. 何らかのトラブルがあっても自己責任であること
 を心掛けて使用してください。
 # コンセプト
 AdGuard社のフィルターは日本語ウェブサイト・アプリへの対応が不十分です。一方、280さんのフィルターは原則としてiOSの280blockerでの利用を前提にしており、AdGuard for Androidでの使用に特化したルールは盛り込まれていません。そこで、AdGuardで280さんのフィルターを使用することを前提として、このような不都合を解決するための追加フィルターを作成します。
