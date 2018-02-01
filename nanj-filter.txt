@@ -1,27 +1,31 @@
 ! Title: なんJ改修フィルター
 ! Homepage: http://wikiwiki.jp/nanj-adguard/
-! License: CC0 (https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-! Last modified: 2018-01-28
-! Description: AdGuard for Androidで280blockerを使用して日本語ウェブサイト・アプリの広告等をブロックする際に発生する不都合を解消するためのフィルターです。
-! Expires: 5 days
+! License: CC0(http://creativecommons.org/publicdomain/zero/1.0/)
+! Last modified: 2018-02-01
+! Expires: 3 days
+! Description: 日本語ウェブサイト・日本語アプリ・280blocker利用時におけるAdGuard for Androidの不具合等を改修するためのフィルターです。
 !
-! ソフトバンク、ポチッとギフトでの不具合への対応
+! ポチッとギフト、ソフトバンクでの不具合への対応
 @@||microad.jp^$app=com.adguard.dns
-@@||microad.jp^$domain=softbank.jp|sbg.jp
+@@||microad.jp^$domain=sbg.jp|softbank.jp
 @@||microad.net^$app=com.adguard.dns
-@@||microad.net^$domain=softbank.jp|sbg.jp
+@@||microad.net^$domain=sbg.jp|softbank.jp
+!
+! アテニアでの不具合への対応
+@@||rt.rtoaster.jp^$app=com.adguard.dns
+@@||rt.rtoaster.jp/Rtoaster.js$domain=attenir.co.jp|attenir.dga.jp
 !
 ! コナミでの不具合への対応
 @@||coremetrics.com^$app=com.adguard.dns
-@@||coremetrics.com^$domain=konamistyle.jp|konami.com|konami.jp|konami.net
+@@||coremetrics.com^$domain=konami.com|konami.jp|konami.net|konamistyle.jp
 !
 ! 109シネマズでの不具合への対応
 @@||googleadservices.com^$app=com.adguard.dns
 @@||googleadservices.com^$domain=109cinemas.net
 !
 ! NHKでの不具合への対応
-@@||analytics.edgekey.net^$app=com.adguard.dns
-@@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
+@@||79423.analytics.edgekey.net^$app=com.adguard.dns
+@@||79423.analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 !
 ! ホウドウキョクでの不具合への対応
 @@||houdoukyoku.jp^$generichide
@@ -31,14 +35,16 @@
 @@||aka-cdn.adtechus.com/dt/common/DAC.js$domain=casabrutus.com
 !
 ! ポンタでの不具合への対応
-@@||mtburn.jp^$app=com.adguard.dns
-@@||mtburn.jp^$domain=ponta.jp
 @@||mtburn.com^$app=com.adguard.dns
 @@||mtburn.com^$domain=ponta.jp
+@@||mtburn.jp^$app=com.adguard.dns
+@@||mtburn.jp^$domain=ponta.jp
+!
+! XVIDEOSでの不具合への対応
+@@||xvideos.com/profiles$elemhide,jsinject
 !
 ! AdGuard未対応のアンチ広告ブロックへの対応
 monara.net,sorasi.net#%#AG_abortInlineScript(/google_ad_client/, 'document.addEventListener');
-@@||gahag.net^$generichide
 !
 ! AdGuard一部未対応のアンチ広告ブロックへの対応
 akb48gnittimatome.com,eikaiwamastery.blogspot.jp,gtoys.blog48.fc2.com,halchim.jp,kamikiyuki.hatenablog.com,omutulove.blog.fc2.com,wakudan.seesaa.net#%#AG_abortInlineScript(/google_ad_client/, 'document.addEventListener');
@@ -52,19 +58,19 @@ akb48gnittimatome.com,eikaiwamastery.blogspot.jp,gtoys.blog48.fc2.com,halchim.jp
 @@||k05.biz^$generichide
 @@||z0i.net^$generichide
 !
-! 280blockerのルールが無効化される保守速報への対応
+! 保守速報で280blockerのルールが無効になる問題への対応
 hosyusokuhou.jp##div.aban
 hosyusokuhou.jp##div.abox
 !
 ! LINEでの不具合への対応
 @@||applovin.com^$app=com.adguard.dns|jp.naver.line.android
 !
-! ChMate、MX Playerなどでの不具合への対応
+! MX Player、ChMateなどでの不具合への対応
 ||googleads.g.doubleclick.net/mads/static/mad/sdk/native/*.html$empty
 !
 ! graph.facebook.com使用アプリへの対応
 ||graph.facebook.com^$app=com.estmob.android.sendanywhere|com.mxtech.videoplayer.ad|kr.co.rinasoft.howuse|mmapps.mirror.free
 !
 ! ★無料版ユーザー向け厳罰化ルール★
-! 無料版ユーザーのうち、不具合が発生してもいいので広告をブロックしたいという人のみ、以下の「!」を削除してください。
+! 無料版ユーザーのうち、不具合が発生してもいいのでMX Player等の広告をブロックしたいという人のみ、以下の「!」を削除してください。
 !||graph.facebook.com^$app=com.adguard.dns
