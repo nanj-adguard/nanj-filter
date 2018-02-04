@@ -1,5 +1,3 @@
-# お知らせ(2018/1/31)
-なんJフィルターはなんJ改修フィルターに名称が変更されました。なお、wikiの書き換えの手間や既に辞書の予測変換にURLを登録した人のことなどを考慮して、URL上の名称変更はしていません。
 # フィルター作成所
 [http://wikiwiki.jp/nanj-adguard/フィルター作成所](http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA)
 # フィルター本体
