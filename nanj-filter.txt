@@ -1,7 +1,7 @@
 ! Title: なんJ改修フィルター
 ! Homepage: http://wikiwiki.jp/nanj-adguard/
-! License: CC0 http://creativecommons.org/publicdomain/zero/1.0/
-! Last modified: 2018-02-01
+! License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+! Last modified: 2018-02-04
 ! Description: 日本語ウェブサイト・日本語アプリ・280blocker利用時におけるAdGuard for Androidの不具合等を改修するためのフィルターです。
 !
 ! ポチッとギフト、ソフトバンクでの不具合への対応
@@ -68,8 +68,8 @@ hosyusokuhou.jp##div.abox
 ||googleads.g.doubleclick.net/mads/static/mad/sdk/native/*.html$empty
 !
 ! graph.facebook.com使用アプリへの対応
-||graph.facebook.com^$app=com.estmob.android.sendanywhere|com.mxtech.videoplayer.ad|kr.co.rinasoft.howuse|mmapps.mirror.free
+||graph.facebook.com^$app=com.mxtech.videoplayer.ad|kr.co.rinasoft.howuse|mmapps.mirror.free
 !
 ! ★無料版ユーザー向け厳罰化ルール★
-! 無料版ユーザーのうち、不具合が発生してもいいのでMX Player等の広告をブロックしたいという人のみ、以下の「!」を削除してください。
+! 不具合が発生してもいいのでMX Player等の広告をブロックしたいという無料版ユーザーのみ、以下の「!」を削除してください。
 !||graph.facebook.com^$app=com.adguard.dns
