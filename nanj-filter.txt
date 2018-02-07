@@ -1,7 +1,7 @@
 ! Title: なんJ改修フィルター
 ! Homepage: http://wikiwiki.jp/nanj-adguard/
-! License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
-! Last modified: 2018-02-04
+! License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+! Last modified: 2018-02-07
 ! Description: 日本語ウェブサイト・日本語アプリ・280blocker利用時におけるAdGuard for Androidの不具合等を改修するためのフィルターです。
 !
 ! ポチッとギフト、ソフトバンクでの不具合への対応
@@ -14,7 +14,7 @@
 @@||rt.rtoaster.jp^$app=com.adguard.dns
 @@||rt.rtoaster.jp/Rtoaster.js$domain=attenir.co.jp|attenir.dga.jp
 !
-! コナミでの不具合への対応
+! KONAMIでの不具合への対応
 @@||coremetrics.com^$app=com.adguard.dns
 @@||coremetrics.com^$domain=konami.com|konami.jp|konami.net|konamistyle.jp
 !
@@ -33,7 +33,7 @@
 @@||aka-cdn.adtechus.com^$app=com.adguard.dns
 @@||aka-cdn.adtechus.com/dt/common/DAC.js$domain=casabrutus.com
 !
-! ポンタでの不具合への対応
+! Pontaでの不具合への対応
 @@||mtburn.com^$app=com.adguard.dns
 @@||mtburn.com^$domain=ponta.jp
 @@||mtburn.jp^$app=com.adguard.dns
@@ -47,7 +47,7 @@ monara.net,sorasi.net#%#AG_abortInlineScript(/google_ad_client/, 'document.addEv
 !
 ! AdGuard一部未対応のアンチ広告ブロックへの対応
 akb48gnittimatome.com,eikaiwamastery.blogspot.jp,gtoys.blog48.fc2.com,halchim.jp,kamikiyuki.hatenablog.com,omutulove.blog.fc2.com,wakudan.seesaa.net#%#AG_abortInlineScript(/google_ad_client/, 'document.addEventListener');
-@@||anipo.jp^$generichide
+anipo.jp#@#.adbanner
 @@||mushinavi.com^$generichide
 @@||nazolog.com^$generichide
 @@||publicdomainq.net^$generichide
@@ -64,12 +64,12 @@ hosyusokuhou.jp##div.abox
 ! LINEでの不具合への対応
 @@||applovin.com^$app=com.adguard.dns|jp.naver.line.android
 !
-! MX Player、ChMateなどでの不具合への対応
-||googleads.g.doubleclick.net/mads/static/mad/sdk/native/*.html$empty
+! OfficeSuite、MX Player、ChMateなどでの不具合への対応
+||googleads.g.doubleclick.net/mads/static/mad/sdk/native/*.html$important,empty
 !
 ! graph.facebook.com使用アプリへの対応
 ||graph.facebook.com^$app=com.mxtech.videoplayer.ad|kr.co.rinasoft.howuse|mmapps.mirror.free
 !
 ! ★無料版ユーザー向け厳罰化ルール★
-! 不具合が発生してもいいのでMX Player等の広告をブロックしたいという無料版ユーザーのみ、以下の「!」を削除してください。
+! 以下の「!」を削除すると、一部のアプリのFacebook連携で不具合が発生することがありますが、無料版ユーザーでもgraph.facebook.com使用アプリ（MX Player等）の広告をブロックすることができます。
 !||graph.facebook.com^$app=com.adguard.dns
