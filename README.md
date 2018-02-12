@@ -19,7 +19,9 @@ AdGuard社のフィルターは日本語ウェブサイト・日本語アプリ�
 
 基本的にどのような設定（DNSブロック、HTTPSブロックなどのオンオフ）でも問題が起きないルールをまとめます。
 # 使い方
-280さんのフィルターをインポートした後で、「インポート」をタップして **「既存のルールを上書きする」のチェックを外して** 、テキストボックスに<https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt>をコピペしてください。  
+1. 280さんのフィルターをインポートした後で、「インポート」をタップして **「既存のルールを上書きする」のチェックを外して** 、テキストボックスに<https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt>をコピペしてください。  
+2. [http://wikiwiki.jp/nanj-adguard/フィルター作成所](http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA)にアクセスして、「最新チェック」からインポート（または更新）ができたかを確認してください。  
+
 なお、なんJ AdGuard部はこのフィルターをパブリックドメイン（CC0）とし、著作権を放棄しています。複製・頒布・改変・営利目的利用なども自由に行うことができます。
 # 使用上の注意
 元々は誰でも編集できるwikiで作られたルールなので、
@@ -28,11 +30,11 @@ AdGuard社のフィルターは日本語ウェブサイト・日本語アプリ�
 - 何らかのトラブルがあっても自己責任であること
 
 を心掛けて使用してください。
-# なんJ改修フィルターのtxt化について
+# なんJ改修フィルターのtxtファイル化について
 なんJ改修フィルターはwiki内で有志たちが作成・公開したものであり、誰でも追加・編集できますが、txtファイル化については現在個人で行っています。  
 ですからwikiで公開されているルールがtxtファイルに反映されるまでにはタイム・ラグが生じてしまうと思われます。  
 最新のルールを使いたい方はwikiのルールを直接コピペする方法をとって、更新速度にこだわりのない方だけがこのtxtファイルを利用してください。  
-このtxtファイルの管理をしている人は最低でも3日に1回以上はwikiを確認するつもりですから、wikiの更新から1週間以上経っても反映されない場合は死んだと思って誰かが引き継いでください。
+このtxtファイルを管理している人は最低でも3日に1回以上はwikiを確認するつもりですから、wikiの更新から1週間以上経っても反映されない場合は死んだと思って誰かが引き継いでください。
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <a rel="license"
@@ -42,11 +44,11 @@ AdGuard社のフィルターは日本語ウェブサイト・日本語アプリ�
   <br />
   To the extent possible under law,
   <a rel="dct:publisher"
-     href="https://github.com/nanj-adguard/nanj-filter/">https://github.com/nanj-adguard/nanj-filter/</a>
+     href="http://wikiwiki.jp/nanj-adguard/">http://wikiwiki.jp/nanj-adguard/</a>
   has waived all copyright and related or neighboring rights to
   <span property="dct:title">nanj-filter.txt</span>.
-This work is published from:
+This work is published from：
 <span property="vcard:Country" datatype="dct:ISO3166"
-      content="JP" about="https://github.com/nanj-adguard/nanj-filter/">
-  日本</span>.
+      content="JP" about="http://wikiwiki.jp/nanj-adguard/">
+Japan</span>.
 </p>
