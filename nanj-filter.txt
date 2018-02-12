@@ -1,8 +1,11 @@
 ! Title: なんJ改修フィルター
 ! Homepage: http://wikiwiki.jp/nanj-adguard/
 ! License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
-! Last modified: 2018-02-07
+! Last modified: 2018-02-12
 ! Description: 日本語ウェブサイト・日本語アプリ・280blocker利用時におけるAdGuard for Androidの不具合等を改修するためのフィルターです。
+!
+! 最新チェック
+wikiwiki.jp##a[href*="#nanj-adguard_2018-02-12"]
 !
 ! ポチッとギフト、ソフトバンクでの不具合への対応
 @@||microad.jp^$app=com.adguard.dns
@@ -43,19 +46,17 @@
 @@||xvideos.com/profiles$elemhide,jsinject
 !
 ! AdGuard未対応のアンチ広告ブロックへの対応
-monara.net,sorasi.net#%#AG_abortInlineScript(/google_ad_client/, 'document.addEventListener');
+monara.net,sorasi.net#%#AG_abortInlineScript(/pagead2\.googlesyndication\.com/, 'document.addEventListener');
+k05.biz,z0i.net#%#AG_abortInlineScript(/ad250/, 'eval');
+k05.biz,z0i.net#@#.ad250
 !
 ! AdGuard一部未対応のアンチ広告ブロックへの対応
-akb48gnittimatome.com,eikaiwamastery.blogspot.jp,gtoys.blog48.fc2.com,halchim.jp,kamikiyuki.hatenablog.com,omutulove.blog.fc2.com,wakudan.seesaa.net#%#AG_abortInlineScript(/google_ad_client/, 'document.addEventListener');
+akb48gnittimatome.com,eikaiwamastery.blogspot.jp,gtoys.blog48.fc2.com,halchim.jp,kamikiyuki.hatenablog.com,omutulove.blog.fc2.com,wakudan.seesaa.net#%#AG_abortInlineScript(/pagead2\.googlesyndication\.com/, 'document.addEventListener');
 anipo.jp#@#.adbanner
 @@||mushinavi.com^$generichide
 @@||nazolog.com^$generichide
-@@||publicdomainq.net^$generichide
-@@||socom.yokohama^$generichide
-!
-! k05.biz、z0i.netのアンチ広告ブロックへの対応
-@@||k05.biz^$generichide
-@@||z0i.net^$generichide
+publicdomainq.net#@#.adsbygoogle
+||socom.yokohama/wp-content/uploads/bsmkwEeQAyTm/zbKhyumAkhez.js
 !
 ! 保守速報で280blockerのルールが無効になる問題への対応
 hosyusokuhou.jp##div.aban
