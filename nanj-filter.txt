@@ -1,11 +1,11 @@
 ! Title: なんJ改修フィルター
 ! Homepage: http://wikiwiki.jp/nanj-adguard/
 ! License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
-! Last modified: 2018-02-12
+! Last modified: 2018-02-13
 ! Description: 日本語ウェブサイト・日本語アプリ・280blocker利用時におけるAdGuard for Androidの不具合等を改修するためのフィルターです。
 !
 ! 最新チェック
-wikiwiki.jp##a[href*="#nanj-adguard_2018-02-12"]
+wikiwiki.jp##a[href*="#nanj-adguard_2018-02-13"]
 !
 ! ポチッとギフト、ソフトバンクでの不具合への対応
 @@||microad.jp^$app=com.adguard.dns
@@ -32,10 +32,6 @@ wikiwiki.jp##a[href*="#nanj-adguard_2018-02-12"]
 ! ホウドウキョクでの不具合への対応
 @@||houdoukyoku.jp^$generichide
 !
-! カーサ ブルータスでの不具合への対応
-@@||aka-cdn.adtechus.com^$app=com.adguard.dns
-@@||aka-cdn.adtechus.com/dt/common/DAC.js$domain=casabrutus.com
-!
 ! Pontaでの不具合への対応
 @@||mtburn.com^$app=com.adguard.dns
 @@||mtburn.com^$domain=ponta.jp
@@ -46,17 +42,22 @@ wikiwiki.jp##a[href*="#nanj-adguard_2018-02-12"]
 @@||xvideos.com/profiles$elemhide,jsinject
 !
 ! AdGuard未対応のアンチ広告ブロックへの対応
+||dorafuto.nippon.mixh.jp/wp-content/uploads/EITxyYiwkLCH/YhfeuDJHkJfD.js
+||masochism.nippon.mixh.jp/wp-content/uploads/KRKMcoJZEYNe/AcSPYchjUyZM.js
+||miyazaki.nippon.mixh.jp/wp-content/uploads/YbawFjHnaEFO/EngRwHKNPQgD.js
+||takanohane.nippon.mixh.jp/wp-content/uploads/hknCtpWiahSQ/UrjoZHdXcbTE.js
 monara.net,sorasi.net#%#AG_abortInlineScript(/pagead2\.googlesyndication\.com/, 'document.addEventListener');
 k05.biz,z0i.net#%#AG_abortInlineScript(/ad250/, 'eval');
 k05.biz,z0i.net#@#.ad250
+server-setting.info#@#.adsbygoogle
 !
 ! AdGuard一部未対応のアンチ広告ブロックへの対応
+||socom.yokohama/wp-content/uploads/bsmkwEeQAyTm/zbKhyumAkhez.js
 akb48gnittimatome.com,eikaiwamastery.blogspot.jp,gtoys.blog48.fc2.com,halchim.jp,kamikiyuki.hatenablog.com,omutulove.blog.fc2.com,wakudan.seesaa.net#%#AG_abortInlineScript(/pagead2\.googlesyndication\.com/, 'document.addEventListener');
 anipo.jp#@#.adbanner
+publicdomainq.net#@#.adsbygoogle
 @@||mushinavi.com^$generichide
 @@||nazolog.com^$generichide
-publicdomainq.net#@#.adsbygoogle
-||socom.yokohama/wp-content/uploads/bsmkwEeQAyTm/zbKhyumAkhez.js
 !
 ! 保守速報で280blockerのルールが無効になる問題への対応
 hosyusokuhou.jp##div.aban
