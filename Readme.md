@@ -1,5 +1,5 @@
 # フィルター作成所
-[http://wikiwiki.jp/nanj-adguard/フィルター作成所](http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA)
+<http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA>
 # フィルター本体
 <https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt>
 # なんJ改修フィルターとは
@@ -20,7 +20,7 @@ AdGuard社のフィルターは日本語ウェブサイト・日本語アプリ�
 基本的にどのような設定（DNSブロック、HTTPSブロックなどのオンオフ）でも問題が起きないルールをまとめます。
 # 使い方
 1. 280さんのフィルターをインポートした後で、「インポート」をタップして **「既存のルールを上書きする」のチェックを外して** 、テキストボックスに<https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt>をコピペしてください。  
-2. [http://wikiwiki.jp/nanj-adguard/フィルター作成所](http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA)にアクセスして、「最新チェック」からインポート（または更新）ができたかを確認してください。  
+2. [なんJ AdGuard部フィルター作成所](http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA)にアクセスして、「最新チェック」からインポート（または更新）ができたかを確認してください。  
 
 なお、なんJ AdGuard部はこのフィルターをパブリックドメイン（CC0）とし、著作権を放棄しています。複製・頒布・改変・営利目的利用なども自由に行うことができます。
 # 使用上の注意
