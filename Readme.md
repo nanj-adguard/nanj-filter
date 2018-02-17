@@ -20,8 +20,12 @@ AdGuard独自記法を多用しているため、その他のアプリで使う�
 
 基本的にどのような設定（DNSブロック、HTTPSブロックなどのオンオフ）でも問題が起きないルールをまとめます。
 # 使い方
-1. [280blockerのフィルター](https://280blocker.net/files/280blocker_adblock.txt)をインポートした後で「インポート」をタップして、280blockerのURLを消してから **「既存のルールを上書きする」のチェックを外して** 、テキストボックスに「<https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt>」をコピペしてください。  
-2. [なんJ AdGuard部／フィルター作成所](http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA)にアクセスして、「最新チェック」からインポート（または更新）ができたかを確認してください。
+1. [280blockerのフィルター](https://280blocker.net/files/280blocker_adblock.txt)をインポート  
+2. 「インポート」をタップ  
+3. 280blockerのURLを消す  
+4.  **「既存のルールを上書きする」のチェックを外す**   
+5. テキストボックスに「<https://raw.githubusercontent.com/nanj-adguard/nanj-filter/master/nanj-filter.txt>」をコピペ  
+6. [なんJ AdGuard部／フィルター作成所](http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%BA%EE%C0%AE%BD%EA)にアクセスして、「最新チェック」からインポート（または更新）ができたかを確認
 
 更に詳しい情報が必要な場合は[wiki](http://wikiwiki.jp/nanj-adguard/?%A5%D5%A5%A3%A5%EB%A5%BF%A1%BC%A4%CE%B9%B9%BF%B7)を参照してください。  
 なお、なんJ AdGuard部はこのフィルターをパブリックドメイン（CC0）とし、著作権を放棄しています。複製・頒布・改変・営利目的利用なども自由に行うことができます。
