@@ -1,11 +1,11 @@
 ! Title: なんJ改修フィルター
 ! Homepage: http://wikiwiki.jp/nanj-adguard/
 ! License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
-! Last modified: 2018-02-17
+! Last modified: 2018-02-23
 ! Description: 日本語ウェブサイト・日本語アプリ・280blocker利用時におけるAdGuard for Androidの不具合等を改修するためのフィルターです。
 !
 ! 最新チェック
-wikiwiki.jp##a[href*="#nanj-adguard_2018-02-17"]
+wikiwiki.jp##a[href*="#nanj-adguard_2018-02-23"]
 !
 ! ポチッとギフト、ソフトバンクでの不具合への対応
 @@||microad.jp^$app=com.adguard.dns
@@ -65,6 +65,9 @@ hosyusokuhou.jp##div.abox
 !
 ! LINEでの不具合への対応
 @@||applovin.com^$app=com.adguard.dns|jp.naver.line.android
+!
+! FODでの不具合への対応
+@@||web-jp.ad-v.jp^$app=com.adguard.dns|air.jp.co.fujitv.fodviewer
 !
 ! OfficeSuite、MX Player、ChMateなどでの不具合への対応
 ||googleads.g.doubleclick.net/mads/static/mad/sdk/native/*.html$important,empty
