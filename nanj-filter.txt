@@ -1,11 +1,11 @@
 ! Title: なんJ改修フィルター
 ! Homepage: http://wikiwiki.jp/nanj-adguard/
 ! License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
-! Last modified: 2018-02-23
+! Last modified: 2018-02-26
 ! Description: 日本語ウェブサイト・日本語アプリ・280blocker利用時におけるAdGuard for Androidの不具合等を改修するためのフィルターです。
 !
 ! 最新チェック
-wikiwiki.jp##a[href*="#nanj-adguard_2018-02-23"]
+wikiwiki.jp##a[href*="#nanj-adguard_2018-02-26"]
 !
 ! ポチッとギフト、ソフトバンクでの不具合への対応
 @@||microad.jp^$app=com.adguard.dns
@@ -39,13 +39,11 @@ houdoukyoku.jp#@#.ad-buttons
 @@||mtburn.jp^$domain=ponta.jp
 !
 ! XVIDEOSでの不具合への対応
-@@||xvideos.com/profiles$elemhide,jsinject
+@@||xvideos.com/profiles^$elemhide,jsinject
 !
 ! AdGuard未対応のアンチ広告ブロックへの対応
-||dorafuto.nippon.mixh.jp/wp-content/uploads/EITxyYiwkLCH/YhfeuDJHkJfD.js
-||masochism.nippon.mixh.jp/wp-content/uploads/KRKMcoJZEYNe/AcSPYchjUyZM.js
-||miyazaki.nippon.mixh.jp/wp-content/uploads/YbawFjHnaEFO/EngRwHKNPQgD.js
-||takanohane.nippon.mixh.jp/wp-content/uploads/hknCtpWiahSQ/UrjoZHdXcbTE.js
+||takanohane.wp-x.jp/wp-content/uploads/OmuOjWzhRxzY/MirKIJQfAgtO.js
+savevideo.me#%#AG_abortInlineScript(/ads_notice_lightbox/, '$');
 monara.net,sorasi.net#%#AG_abortInlineScript(/pagead2\.googlesyndication\.com/, 'document.addEventListener');
 k05.biz,z0i.net#%#AG_abortInlineScript(/ad250/, 'eval');
 k05.biz,z0i.net#@#.ad250
